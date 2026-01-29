@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Kaydırma çubuklarını gizle */
+    font-family: 'Segoe UI', sans-serif; /* Biraz modern font */
+}
+
+#uiContainer {
+    position: absolute; /* Sayfada bağımsız hareket etsin */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Tam ortaya çivilemek için */
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Hafif şeffaf beyaz */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #ff6b81; /* Üzerine gelince renk aç */
+}
+
+#scoreBoard {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* SAĞ ÜST KÖŞE */
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4); /* Hafif şeffaf siyah */
+    padding: 10px 20px;
+    border-radius: 10px;
+    user-select: none;      /* Yazı seçilemesin */
+    pointer-events: none;   /* Mouse tıklamaları içinden geçsin (Çok önemli!) */
+    z-index: 100;           /* En üstte görünsün */
+}
+
+#playerNameInput {
+    padding: 15px 40px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
