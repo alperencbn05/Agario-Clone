@@ -1,5 +1,9 @@
 # 🦠 Agario Clone (JavaScript ES6 Modules)
 
+### 🔴 [CLICK HERE TO PLAY LIVE DEMO](https://alperencbn05.github.io/Agario-Clone/)
+
+A lightweight, modular clone of the popular game **Agar.io**, built entirely with...
+
 A lightweight, modular clone of the popular game **Agar.io**, built entirely with **Vanilla JavaScript (ES6)** and **HTML5 Canvas**. 
 
 This project demonstrates the transition from a monolithic codebase to a scalable **Modular Architecture**, featuring a custom physics engine, object-oriented entity management, and vector-based collision detection.
